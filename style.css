@@ -97,6 +97,11 @@ img {
     padding: 20px;
   }
 
+  #why.container.grey .row > div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
   .container, #why.container.grey {
     background-color: rgb(226, 226, 85);
   }
