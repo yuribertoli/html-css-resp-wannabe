@@ -115,6 +115,10 @@ img {
     background-color: white;
   }
 
+  hr {
+    margin-top: 10px;
+  }
+
 }
 
 @media all and (min-width: 420px) and (max-width: 800px) {
@@ -144,6 +148,7 @@ img {
 
   h3 {
     text-align: center;
+    margin: 0 0 10px;
   }
 
   .row {
@@ -155,6 +160,10 @@ img {
   img {
     scale: 0.85;
     margin-left: 25%;
+  }
+
+  hr {
+    margin-top: 10px;
   }
 
   #why.container.grey .row > div {
