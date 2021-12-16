@@ -121,7 +121,7 @@ img {
 
 }
 
-@media all and (min-width: 420px) and (max-width: 800px) {
+@media all and (min-width: 420px) and (max-width: 810px) {
 
   * {
     margin: 0;
@@ -179,4 +179,11 @@ img {
     background-color: rgb(136, 80, 80);
   }
 
+}
+
+@media all and (max-width: 345px) {
+  img {
+    width: 70%;
+    height: auto;
+  }
 }
