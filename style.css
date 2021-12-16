@@ -89,4 +89,13 @@ img {
     width: 100%;
   }
 
+  .container, #why.container.grey {
+    background-color: rgb(226, 226, 85);
+    padding: 20px;
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
 }
