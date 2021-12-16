@@ -75,7 +75,7 @@ img {
 /* MEDIAQUERY */
 
 @media all and (max-width: 419px) {
-  
+
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -83,6 +83,10 @@ img {
   #steps .row>.right {
   float: left;
   width: 100%;
+  }
+
+  .row {
+    width: 100%;
   }
 
 }
