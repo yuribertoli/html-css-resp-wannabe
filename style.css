@@ -75,6 +75,11 @@ img {
 /* MEDIAQUERY */
 
 @media all and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   #lezioni .row>.left,
   #lezioni .row>.right,
@@ -83,15 +88,17 @@ img {
   #steps .row>.right {
   float: left;
   width: 100%;
+  margin: 10px 0;
   }
 
   .row {
     width: 100%;
+    margin-top: 0;
+    padding: 20px;
   }
 
   .container, #why.container.grey {
     background-color: rgb(226, 226, 85);
-    padding: 20px;
   }
 
   .container.grey {
